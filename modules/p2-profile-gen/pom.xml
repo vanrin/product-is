@@ -226,6 +226,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.application.mgt.feature:${carbon.identity.framework.version}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.framework:org.wso2.carbon.identity.adaptive.authentication.server.feature:${carbon.identity.framework.version}
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.application.authentication.framework.server.feature:${carbon.identity.framework.version}
@@ -637,6 +640,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.application.mgt.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.adaptive.authentication.server.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
                                 <feature>
@@ -1140,6 +1147,10 @@
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
                                 <feature>
+                                    <id>org.wso2.carbon.identity.adaptive.authentication.server.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
                                     <id>org.wso2.carbon.claim.mgt.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
@@ -1575,6 +1586,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.application.mgt.server.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.adaptive.authentication.server.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
                                 <feature>
